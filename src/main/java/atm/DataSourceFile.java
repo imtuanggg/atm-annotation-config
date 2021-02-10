@@ -11,7 +11,7 @@ import java.util.Map;
 import java.util.Scanner;
 
 @Component
-@Primary //ใส่primary=เลือกใช้ข้อมูลจากตัวนี้
+//@Primary //ใส่primary=เลือกใช้ข้อมูลจากตัวนี้
 public class DataSourceFile implements DataSource {
 
     private String filename;

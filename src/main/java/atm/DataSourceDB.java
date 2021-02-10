@@ -7,7 +7,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 @Component
-//@Primary //เลือกใช้ข้อมูลจาก database
+@Primary //เลือกใช้ข้อมูลจาก database
 public class DataSourceDB implements DataSource {
 
     /**
